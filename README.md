@@ -161,6 +161,14 @@ CI runs both on every push/PR.
 
 ---
 
+## 🛠️ How this project was rebuilt
+
+I was stuck on this project for **months** — it overfit badly, the dataset never felt right, and the Streamlit app just wouldn't work. I rebuilt it with **[Claude Code](https://www.anthropic.com/claude-code)** as a pair-programmer: working through the root causes together (a CTC model structurally can't read CROHME's 2-D notation, a train/inference preprocessing mismatch, and no validation signal to catch overfitting), regenerating the data as synthetic handwriting, retraining, and fixing the bugs.
+
+I've kept this README honest about what was actually broken and how each issue was fixed — including the failure modes that remain — rather than pretending it worked on the first try.
+
+---
+
 ## 👤 Author
 
 **Prakhar Srivastava** — [github.com/prakhar-189](https://github.com/prakhar-189)
