@@ -1,0 +1,37 @@
+# ==========================================
+# Environments
+# ==========================================
+venv/
+env/
+
+# ==========================================
+# Model weights (trained locally; regenerate with training/training_crnn.py)
+# ==========================================
+*.keras
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# ==========================================
+# Datasets
+# ==========================================
+# Synthetic data is regenerable via data/generate_synthetic.py
+data/synthetic/
+# Real test images are derived from CROHME (not redistributed here); the
+# labels.txt is kept as a record. Rebuild with data/build_real_testset.py
+data/real_test/img/
+Dataset/
+Dataset.zip
+
+# ==========================================
+# Python & IDE Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.DS_Store
+Thumbs.db
