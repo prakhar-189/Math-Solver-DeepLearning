@@ -1,0 +1,14 @@
+{
+  "synthetic_val": {
+    "set": "synthetic_val",
+    "n": 1500,
+    "exact_match_accuracy": 0.9946666666666667,
+    "char_error_rate": 0.0007558578987150416
+  },
+  "real_crohme_test": {
+    "set": "real_crohme_test",
+    "n": 298,
+    "exact_match_accuracy": 0.174496644295302,
+    "char_error_rate": 0.3728395061728395
+  }
+}
